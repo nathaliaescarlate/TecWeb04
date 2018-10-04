@@ -8,15 +8,21 @@ table, th, td{
 
 h1{
     font-family: 'Arial', sans-serif;
-    font-size: 16px;
-    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+    padding-left: 200px;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
 }
 
 table th.dif{
 	border-top: hidden;
     border-left: hidden;
     background-color: white;
-
 }
 
 table td.cent{
@@ -28,18 +34,34 @@ table td.esq{
 }
 
 table tr.blue{
-    background-color: aqua;
+    background-color: rgb(159, 245, 245);
 
 }
 
-th.hid{
+table th.hid{
     border-bottom: hidden;
-    vertical-align: 50px;
+    vertical-align: middle;
 }
 
 td.tcolor{
     color: blue;
 }
+
+.esqblu{
+    text-align: left; 
+    color: blue;
+}
+
+th div#sucesso{
+    font:12px Arial, Sans-serif;
+    width: 200px;
+    height: 150px;
+    border: 1px solid #c30;
+    background: #ffe;
+    line-height:150px;
+}
+
+
 
 
 
