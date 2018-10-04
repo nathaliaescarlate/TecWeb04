@@ -1,0 +1,51 @@
+table, th, td{
+    border: 2px solid rgb(173, 173, 173);
+    border-collapse: collapse;
+    text-align: center;
+    padding: 7px;
+    font-family: 'Arial', sans-serif;
+}
+
+h1{
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+table th.dif{
+	border-top: hidden;
+    border-left: hidden;
+    background-color: white;
+
+}
+
+table td.cent{
+    text-align: center;
+}
+
+table td.esq{
+    text-align: left;
+}
+
+table tr.blue{
+    background-color: aqua;
+
+}
+
+th.hid{
+    border-bottom: hidden;
+    vertical-align: 50px;
+}
+
+td.tcolor{
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
