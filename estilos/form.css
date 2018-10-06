@@ -1,7 +1,6 @@
 body{
 	font-family: 'Calibri', serif;
-	width: 500px;
-	margin: ;
+	
 }
 
 table{
@@ -53,6 +52,7 @@ form{
 	padding: 1em;
 	border: 1px solid #CCC;
 	border-radius: 1em;
+	margin: 0 auto; /* nova edicao */
 }
 
 input{
@@ -104,3 +104,4 @@ label{
     content: '*';
      
 }
+
