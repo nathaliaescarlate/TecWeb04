@@ -99,3 +99,8 @@ label{
 .blue{
 	color: #4885ed
 }
+.requerido:after{
+    color:black;
+    content: '*';
+     
+}
