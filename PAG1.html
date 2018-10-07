@@ -13,22 +13,22 @@
         <fieldset>
         <legend>Dados pessoais</legend>
         <label class="requerido" for="Nome">Nome:</label>
-        <input type="text" id="Nome" name="Nome" minlength="4" maxlength="20"required>
+        <input type="text" id="Nome" name="Nome" minlength="4" maxlength="20" required title="Campo obrigatório" autofocus> 
         <br><br>
-        <label class="requerido" for="Email">Email: </label>
-        <input type="email" name="Email" id="Email" required>
+        <label class="requerido" for="Email" >Email: </label>
+        <input type="email" name="Email" id="Email" required title="Campo obrigatório">
         <br><br>
         <label class="requerido"for="Senha">Senha para login no processo de seleção: <br></label>
-        <input type="password" name="Senha" id="Senha"minlength="6" required
-        placeholder="mínimo de 6 caracteres">
+        <input type="password" name="Senha" id="Senha"minlength="6" maxlength="10" required
+        placeholder="mínimo de 10 caracteres" title="Campo obrigatório">
         <br><br>
         <label class="requerido" for="Telefone">Telefone: </label> <!--DEFINIR PADRÃO TELEFÔNICO-->
         <input type="tel" name="Telefone" id="Telefone"
         pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$" 
-        placeholder="(12) 1234-5124" required>
+        placeholder="(12) 1234-5124" required title="Campo obrigatório">
         <br><br>
         <label class="requerido" for="Datanasc">Data de nascimento:</label>
-        <input type="date" name="Datanasc" id="Datanasc"required>
+        <input type="date" name="Datanasc" id="Datanasc"required title="Campo obrigatório"> 
         </fieldset>
         <br>
         <button type="submit" name="prosseguirpag2">Prosseguir</button>
